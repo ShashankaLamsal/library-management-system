@@ -122,6 +122,7 @@
             this.txtRoll.Name = "txtRoll";
             this.txtRoll.Size = new System.Drawing.Size(214, 28);
             this.txtRoll.TabIndex = 0;
+            this.txtRoll.TextChanged += new System.EventHandler(this.txtRoll_TextChanged);
             // 
             // label1
             // 

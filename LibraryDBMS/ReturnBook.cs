@@ -86,7 +86,15 @@ namespace LibraryDBMS
 
         private void btnRefresh_Click(object sender, EventArgs e)
         {
+            txtRoll.Clear();
+        }
 
+        private void txtRoll_TextChanged(object sender, EventArgs e)
+        {
+            if(txtRoll.Text!="")
+            {
+                dataGridView1.DataSource = null;
+            }
         }
     }
 }
