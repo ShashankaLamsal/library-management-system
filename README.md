@@ -1,31 +1,9 @@
 # library-management-system
 This is a Library Management System made as a Mini Project for 4th semester of my Computer Engineering Course.
 
-** Microsoft SQL Server Management Studio is a requirement for this project as it requires a SQL Server to store Books and Student Information
-
-The Authentication Server Address must be edited in the code to have access to the server.
-
-The following queries must be run on the studio to create the table that required for the information to be stored
-
-
-//For Student Table
-create table newStudent(
-sid int NOT NULL IDENTITY(1,1) primary key,
-sName varchar(50) NOT NULL,
-sRoll varchar(50) NOT NULL,
-sDepart varchar(50) NOT NULL,
-sSem varchar(50) NOT NULL,
-sCont bigint NOT NULL)
-
-
-//For Issue and Return Book Table
-create table IRBook(
-id int NOT NULL IDENTITY(1,1) primary key,
-std_Roll varchar(50) not null,
-std_Name varchar(50) NOT NULL,
-std_Depart varchar(50) NOT NULL,
-std_Sem varchar(50) NOT NULL,
-std_Cont bigint NOT NULL,
-book_name varchar(250) NOT NULL,
-book_issue_date varchar(250) not null,
-book_return_date varchar(250));
+![returnbook](https://github.com/user-attachments/assets/1d0682c1-6785-48b9-8fb0-80324734d233)
+![mainMenu2](https://github.com/user-attachments/assets/53e4c377-f00d-4112-ae49-a6cacb6791db)
+![loginPage](https://github.com/user-attachments/assets/679e8614-e754-463b-9287-e29e623f9f0a)
+![issuebook](https://github.com/user-attachments/assets/1220c148-35e4-48ba-a310-81b59fc202a7)
+![addstudent](https://github.com/user-attachments/assets/f2bb8134-07f6-466a-840a-b29fa6127039)
+![viewstudent](https://github.com/user-attachments/assets/fbc19663-3af8-46a3-a326-fc266918ab2b)
